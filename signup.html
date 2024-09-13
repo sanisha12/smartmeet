@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Meet Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo in the top-left -->
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+    </div>
+
+    <!-- Sign Up Box -->
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <form action="signup-handler.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" 
+                   required 
+                   pattern="(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}" 
+                   title="Password must be at least 8 characters long, include at least one number and one special character.">
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="signin.html" class="signin-link">Sign In</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Meet Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo in the top-left -->
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+    </div>
+
+    <!-- Sign In Box -->
+    <div class="signin-box">
+        <h1>Sign In</h1>
+        <form action="signin-handler.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Sign In</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html" class="signup-link">Sign Up</a></p>
+    </div>
+</body>
+</html>

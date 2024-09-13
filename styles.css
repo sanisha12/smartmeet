@@ -1,0 +1,272 @@
+/* Style for the logo */
+.logo {
+    position: absolute;
+    top: -60px;  /* Adjust the distance from the top of the page */
+    left: -20px; /* Adjust the distance from the left side of the page */
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+/* Make sure the rest of the content is centered */
+/* Style for the logo in the top-left */
+
+
+/* Top navigation for Sign Up and About */
+.top-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.top-nav button {
+    background-color: #3611a4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.top-nav button:hover {
+    background-color: #3611a4;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #3611a4;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #3611a4;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.top-nav a:hover {
+    background-color: #3611a4;
+    color: white;
+}
+
+/* Center the rest of the content */
+body {
+    height: 100vh;
+    background-image: url(images/background_image1.jpg); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+.landscape-box {
+    background-color: rgba(254, 254, 255, 0.8); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    width: 700px; /* Wide for landscape */
+    height: 515px; /* Short height for landscape */
+    text-align: left; /* Align the text to the left */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman for text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Evenly space the content */
+}
+
+/* Style the Heading and Paragraphs */
+.landscape-box h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.landscape-box p, .landscape-box ul {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.landscape-box ul {
+    padding-left: 20px; /* Indentation for the list */
+}
+
+.landscape-box ul li {
+    list-style-type: disc; /* Disc bullets for the list */
+}
+
+/* Back to Home link styling */
+.back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3611a4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom of the landscape box */
+    right: 20px; /* Distance from the right side of the landscape box */
+}
+
+.back-home:hover {
+    background-color: #3611a4;
+}
+.signup-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Width of the form container */
+    text-align: center; /* Center the text and form elements */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman for text */
+}
+
+/* Form Elements Styling */
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-box label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.signup-box input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-box button {
+    padding: 10px 20px;
+    background-color: #3611a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-box button:hover {
+    background-color: #3611a4;
+}
+
+/* Back to Home link styling */
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3611a4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-home:hover {
+    background-color: #3611a4;
+}
+.signin-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Width of the form container */
+    text-align: center; /* Center the text and form elements */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman for text */
+}
+
+/* Form Elements Styling */
+.signin-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-box label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.signin-box input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signin-box button {
+    padding: 10px 20px;
+    background-color: #3611a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-box button:hover {
+    background-color: #3611a4;
+}
+
+/* Sign Up link styling */
+.signup-link {
+    color: #3611a4;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sign-in button, .join-meeting button {
+    background-color: #3611a4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-meeting input {
+    width: calc(100% - 20px);
+    padding: 10px ;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3611a4;
+}
